@@ -1,0 +1,66 @@
+/* ====Titles===== */
+.title {
+  color: var(--hero-text-color);
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  text-align: center;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  max-width: 1600px;
+  height: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+    url('../img/hero-background.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.hero-title {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-style: normal;
+
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  letter-spacing: 0.06em;
+}
+
+.section-title-primary {
+  color: var(--title-text-color);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+
+  margin-top: 0;
+  margin-bottom: 50px;
+}
+.section-title-secondary {
+  color: var(--title-text-color);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+.section-title-portfolio {
+  color: var(--title-text-color);
+  font-size: 18px;
+  line-height: 2;
+
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.title-uppercase {
+  text-transform: uppercase;
+}
