@@ -25,12 +25,12 @@
 }
 .client-logo .item-link:hover,
 .client-logo .item-link:focus {
-  border: 1px solid #2196f3;
+  border: 1px solid $accentColor;
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .client-logo .item-link .logo-icons:hover,
 .client-logo .item-link:focus .logo-icons {
-  fill: #2196f3;
+  fill: $accentColor;
 }
 .logo-icons {
   display: inline-block;

@@ -1,6 +1,6 @@
 /* ====Titles===== */
 .title {
-  color: var(--hero-text-color);
+  color: $heroTextColor;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -35,7 +35,7 @@
 }
 
 .section-title-primary {
-  color: var(--title-text-color);
+  color: $titleTextColor;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
@@ -45,7 +45,7 @@
   margin-bottom: 50px;
 }
 .section-title-secondary {
-  color: var(--title-text-color);
+  color: $titleTextColor;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -54,7 +54,7 @@
   margin-bottom: 10px;
 }
 .section-title-portfolio {
-  color: var(--title-text-color);
+  color: $titleTextColor;
   font-size: 18px;
   line-height: 2;
 

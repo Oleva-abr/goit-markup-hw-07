@@ -372,11 +372,11 @@
     </footer>
     <div class="backdrop is-hidden" data-modal>
       <div class="modal">
-        <div class="icon-wrapper" data-modal-close>
+        <button class="icon-wrapper" data-modal-close>
           <svg class="modal-close-button">
             <use href="./img/icons/symbol-defs.svg#icon-close"></use>
           </svg>
-        </div>
+        </button>
         <form>
           <div role="group" class="modal-form">
             <b class="modal-form-title">Оставьте свои данные, мы вам перезвоним</b>
@@ -428,9 +428,6 @@
         </form>
       </div>
     </div>
-    <script src="./js/modal.js">
-      (() => { document.querySelector('.js-speaker-form').addEventListener('submit', e => { e.preventDefault(); new
-      FormData(e.currentTarget).forEach((value, name) => console.log(`${name}: ${value}`), ); }); })();
-    </script>
+    <script src="./js/modal.js"></script>
   </body>
 </html>

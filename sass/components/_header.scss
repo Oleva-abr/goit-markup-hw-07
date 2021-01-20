@@ -1,7 +1,7 @@
 /* =====Address====== */
 
 .address {
-  color: var(--primary-text-color);
+  color: $primaryTextColor;
   font-family: Roboto, sans-serif;
   font-weight: 500;
   font-size: 14px;
@@ -15,7 +15,7 @@
 }
 .address:hover,
 .address:focus {
-  color: var(--accent-color);
+  color: $accentColor;
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .icon-nav {
@@ -44,7 +44,7 @@
   padding-bottom: 30px;
   padding-top: 30px;
 
-  color: var(--title-text-color);
+  color: $titleTextColor;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -57,7 +57,7 @@
   content: '';
   display: block;
   width: 100%;
-  background: var(--accent-color);
+  background: $accentColor;
   border-radius: 2px;
   height: 4px;
   position: absolute;
@@ -74,7 +74,7 @@
 .site-nav .link:hover,
 .site-nav .link:focus,
 .site-nav .current {
-  color: var(--accent-color);
+  color: $accentColor;
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .site-nav .item:not(:last-child) {

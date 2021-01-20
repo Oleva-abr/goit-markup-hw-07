@@ -8,9 +8,13 @@
   background: rgba(0, 0, 0, 0.2);
   opacity: 1;
   transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  visibility: visible;
+  pointer-events: auto;
 }
 .backdrop.is-hidden {
   opacity: 0;
+  visibility: hidden;
   pointer-events: none;
 }
 .backdrop.is-hidden.modal {
@@ -50,7 +54,7 @@
   margin-right: 8px;
 }
 .icon-wrapper:hover .modal-close-button {
-  fill: var(--accent-color);
+  fill: $accentColor;
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .form-button {
@@ -114,23 +118,21 @@
   cursor: pointer;
   padding-left: 40px;
   margin-bottom: 10px;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal-input:focus,
 .modal-input:hover,
 .textarea-input:hover,
 .textarea-input:focus {
-  border: 1px solid var(--accent-color);
+  border: 1px solid $accentColor;
   outline: none;
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .modal-form:focus .modal-input {
-  color: var(--accent-color);
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  color: $accentColor;
 }
 .modal-form-field:focus .modal-input {
-  fill: var(--accent-color);
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  fill: $accentColor;
 }
 
 .textarea-input {
@@ -168,7 +170,7 @@
   margin: 14px 15px;
 }
 .modal-input:focus + .modal-icon {
-  fill: var(--accent-color);
+  fill: $accentColor;
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .checkbox {
@@ -183,17 +185,17 @@
   margin-right: 7px;
   width: 16px;
   height: 15px;
-  background: var(--hero-text-color);
+  background: $heroTextColor;
   justify-items: start;
-  fill: var(--hero-text-color);
+  fill: $heroTextColor;
   border: 1px solid black;
   border-radius: 4px;
   transform: translateY(20%);
 }
 .checkbox:focus ~ .checkbox-icon,
 .checkbox:checked + .checkbox-icon {
-  background: var(--accent-color);
-  border: 1px var(--accent-color);
+  background: $accentColor;
+  border: 1px $accentColor;
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .checkbox-label {
@@ -201,6 +203,6 @@
   flex-direction: row-reverse;
 }
 .contract {
-  color: var(--accent-color);
+  color: $accentColor;
   text-decoration: underline;
 }

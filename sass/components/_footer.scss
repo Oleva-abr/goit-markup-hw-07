@@ -12,10 +12,10 @@
   justify-content: space-between;
 }
 .footer .footer-logo {
-  color: var(--hero-text-color);
+  color: $heroTextColor;
 }
 .footer-address {
-  color: var(--hero-text-color);
+  color: $heroTextColor;
   font-weight: 400;
   font-style: normal;
   font-size: 14px;
@@ -41,7 +41,7 @@
   letter-spacing: 0.03em;
   text-transform: uppercase;
 
-  color: var(--hero-text-color);
+  color: $heroTextColor;
   margin-bottom: 20px;
 }
 .footer-card {
@@ -105,7 +105,7 @@
   line-height: 1.142;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: var(--hero-text-color);
+  color: $heroTextColor;
 
   margin-bottom: 20px;
 }
