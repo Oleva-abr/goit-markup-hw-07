@@ -4,12 +4,12 @@
   flex-wrap: wrap;
   margin-left: -30px;
   margin-top: -30px;
-}
 
-.primary-list .item {
-  margin-left: 30px;
-  margin-top: 30px;
-  flex-basis: calc(100% / 3 - 30px);
+  .item {
+    margin-left: 30px;
+    margin-top: 30px;
+    flex-basis: calc(100% / 3 - 30px);
+  }
 }
 .primary-thumb {
   position: relative;
