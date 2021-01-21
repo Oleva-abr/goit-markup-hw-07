@@ -1,17 +1,17 @@
-@import 'utils/variables';
-@import 'utils/base';
-@import 'components/container';
-@import 'components/logo';
-@import 'components/titles';
-@import 'components/header';
-@import 'components/buttons';
-@import 'components/feacherList';
-@import 'components/primarySection';
-@import 'components/teamSection';
-@import 'components/portfolioSection';
-@import 'components/clientLogoSection';
-@import 'components/footer';
-@import 'components/modal';
+// @import 'utils/variables';
+// @import 'utils/base';
+// @import 'components/container';
+// @import 'components/logo';
+// @import 'components/titles';
+// @import 'components/header';
+// @import 'components/buttons';
+// @import 'components/feacherList';
+// @import 'components/primarySection';
+// @import 'components/teamSection';
+// @import 'components/portfolioSection';
+// @import 'components/clientLogoSection';
+// @import 'components/footer';
+// @import 'components/modal';
 
 // /* цвет текста  #757575;
 //   цвет заголовков  и кнопок#212121
@@ -405,26 +405,6 @@
 // .product-thumb {
 //   position: relative;
 //   overflow: hidden;
-// }
-// .product-thumb::before {
-//   content: '';
-//   display: inline-block;
-//   position: absolute;
-
-//   background: rgba(33, 150, 243, 0.9);
-//   width: 100%;
-//   height: 100%;
-
-//   top: 0;
-//   left: 0;
-//   opacity: 0;
-//   transform: translateY(100%);
-//   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
-// }
-
-// .product-thumb:hover:before {
-//   opacity: 1;
-//   transform: translateY(0);
 // }
 // .overlay {
 //   position: absolute;
@@ -873,7 +853,7 @@
 //   top: 0;
 //   left: 0;
 //   transform: translateY(100%);
-//   margin: 14px 15px;
+//   margin: 19px 15px;
 // }
 // .modal-input:focus + .modal-icon {
 //   fill: var(--accent-color);

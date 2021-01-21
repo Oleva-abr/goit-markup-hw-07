@@ -359,7 +359,7 @@
               </li>
             </ul>
           </div>
-          <form class="footer-form">
+          <form action="#" class="footer-form">
             <div class="form-field">
               <label for="email" class="form-label">Подпишитесь на рассылку</label>
 
@@ -377,7 +377,7 @@
             <use href="./img/icons/symbol-defs.svg#icon-close"></use>
           </svg>
         </button>
-        <form>
+        <form action="#">
           <div role="group" class="modal-form">
             <b class="modal-form-title">Оставьте свои данные, мы вам перезвоним</b>
             <div class="modal-form-field">
@@ -428,6 +428,9 @@
         </form>
       </div>
     </div>
-    <script src="./js/modal.js"></script>
+    <script src="./js/modal.js">
+      (() => { document.querySelector('.js-speaker-form').addEventListener('submit', e => { e.preventDefault(); new
+      FormData(e.currentTarget).forEach((value, name) => console.log(`${name}: ${value}`), ); }); })();
+    </script>
   </body>
 </html>

@@ -5,39 +5,6 @@
   белый #FFFFFF
   вторичный цвет фона #2F303A
  */
-/* =====Texts===== */
-.section {
-  padding-bottom: 94px;
-}
-
-.section p {
-  margin-top: 0;
-}
-
-.section-text {
-  font-size: 14px;
-  line-height: 1.71;
-  margin-bottom: 0;
-}
-
-.section-team-text {
-  font-size: 16px;
-  line-height: 1.18;
-}
-
-.section-portfolio-text {
-  font-size: 16px;
-  line-height: 1.86;
-  margin-bottom: 0;
-  color: #757575;
-}
-
-/* цвет текста  #757575;
-  цвет заголовков  и кнопок#212121
-  акцент+часть лого #2196F3;
-  белый #FFFFFF
-  вторичный цвет фона #2F303A
- */
 /* ====site colors===== */
 .visually-hidden {
   position: absolute;
@@ -445,25 +412,6 @@ ul {
 .product-thumb {
   position: relative;
   overflow: hidden;
-}
-
-.product-thumb::before {
-  content: '';
-  display: inline-block;
-  position: absolute;
-  background: rgba(33, 150, 243, 0.9);
-  width: 100%;
-  height: 100%;
-  top: 0;
-  left: 0;
-  opacity: 0;
-  transform: translateY(100%);
-  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.product-thumb:hover:before {
-  opacity: 1;
-  transform: translateY(0);
 }
 
 .overlay {
@@ -946,7 +894,7 @@ ul {
   top: 0;
   left: 0;
   transform: translateY(100%);
-  margin: 14px 15px;
+  margin: 19px 15px;
 }
 
 .modal-input:focus + .modal-icon {
