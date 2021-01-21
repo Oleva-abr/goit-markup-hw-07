@@ -151,6 +151,7 @@
   line-height: 1.166;
   letter-spacing: 0.01em;
   cursor: pointer;
+  resize: none;
 }
 .textarea-input::placeholder {
   font-family: Roboto, sans-serif;
@@ -161,7 +162,7 @@
   color: rgba(117, 117, 117, 0.5);
 }
 .modal-form-checkbox {
-  display: flex;
+  display: inline-block;
   margin-right: 7px;
 }
 /* .modal-form-checkbox input[type='checkbox'] {
@@ -182,19 +183,19 @@
   -webkit-appearance: none;
   appearance: none;
   position: absolute;
-}
 
-.checkbox-icon {
-  display: inline-block;
-  margin-right: 7px;
-  width: 16px;
-  height: 15px;
-  background: $heroTextColor;
-  justify-items: start;
-  fill: $heroTextColor;
-  border: 1px solid black;
-  border-radius: 4px;
-  transform: translateY(20%);
+  &-icon {
+    display: inline-block;
+    margin-right: 7px;
+    width: 16px;
+    height: 15px;
+    background: $heroTextColor;
+    justify-items: start;
+    fill: $heroTextColor;
+    border: 1px solid black;
+    border-radius: 4px;
+    transform: translateY(20%);
+  }
 }
 .checkbox:focus ~ .checkbox-icon,
 .checkbox:checked + .checkbox-icon {
