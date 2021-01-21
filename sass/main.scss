@@ -1,24 +1,24 @@
-// @import 'utils/variables';
-// @import 'utils/base';
-// @import 'components/container';
-// @import 'components/logo';
-// @import 'components/titles';
-// @import 'components/header';
-// @import 'components/buttons';
-// @import 'components/feacherList';
-// @import 'components/primarySection';
-// @import 'components/teamSection';
-// @import 'components/portfolioSection';
-// @import 'components/clientLogoSection';
-// @import 'components/footer';
-// @import 'components/modal';
+@import 'utils/variables';
+@import 'utils/base';
+@import 'components/container';
+@import 'components/logo';
+@import 'components/titles';
+@import 'components/header';
+@import 'components/buttons';
+@import 'components/feacherList';
+@import 'components/primarySection';
+@import 'components/teamSection';
+@import 'components/portfolioSection';
+@import 'components/clientLogoSection';
+@import 'components/footer';
+@import 'components/modal';
 
-// /* цвет текста  #757575;
-//   цвет заголовков  и кнопок#212121
-//   акцент+часть лого #2196F3;
-//   белый #FFFFFF
-//   вторичный цвет фона #2F303A
-//  */
+/* цвет текста  #757575;
+  цвет заголовков  и кнопок#212121
+  акцент+часть лого #2196F3;
+  белый #FFFFFF
+  вторичный цвет фона #2F303A
+ */
 // /* ====site colors===== */
 // .visually-hidden {
 //   position: absolute;
@@ -77,7 +77,7 @@
 // a {
 //   text-decoration: none;
 // }
-// /* ====logo====== */
+/* ====logo====== */
 // .logo {
 //   font-family: Raleway, sans-serif;
 //   color: var(--title-text-color);
@@ -96,6 +96,7 @@
 //   padding: 0;
 //   margin: 0;
 // }
+
 // /* ====Titles===== */
 
 // .hero-title {
@@ -119,6 +120,31 @@
 //   margin-top: 0;
 //   margin-bottom: 50px;
 // }
+// .section-title-secondary {
+//   color: var(--title-text-color);
+//   font-weight: 700;
+//   font-size: 14px;
+//   line-height: 1.14;
+
+//   margin-top: 0;
+//   margin-bottom: 10px;
+// }
+// .section-title-portfolio {
+//   color: var(--title-text-color);
+//   font-size: 18px;
+//   line-height: 2;
+
+//   margin-top: 0;
+//   margin-bottom: 0;
+// }
+// .title-uppercase {
+//   text-transform: uppercase;
+// }
+// .team-section {
+//   background: #f5f4fa;
+//   padding-top: 94px;
+// }
+// ================Primary list
 // .primary-list {
 //   display: flex;
 //   flex-wrap: wrap;
@@ -156,30 +182,6 @@
 //   padding-top: 27px;
 // }
 
-// .section-title-secondary {
-//   color: var(--title-text-color);
-//   font-weight: 700;
-//   font-size: 14px;
-//   line-height: 1.14;
-
-//   margin-top: 0;
-//   margin-bottom: 10px;
-// }
-// .section-title-portfolio {
-//   color: var(--title-text-color);
-//   font-size: 18px;
-//   line-height: 2;
-
-//   margin-top: 0;
-//   margin-bottom: 0;
-// }
-// .title-uppercase {
-//   text-transform: uppercase;
-// }
-// .team-section {
-//   background: #f5f4fa;
-//   padding-top: 94px;
-// }
 // /* =====Team list===== */
 // .team-list {
 //   display: flex;
@@ -537,17 +539,17 @@
 // .client-logo .item-link:focus .logo-icons {
 //   fill: #2196f3;
 // }
-// .logo-icons {
-//   display: inline-block;
-//   width: 100%;
-//   height: 100%;
-//   padding: 20px;
-//   fill: #afb1b8;
-// }
+.logo-icons {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  padding: 20px;
+  fill: #afb1b8;
+}
 
-// .section-logo {
-//   padding-top: 94px;
-// }
+.section-logo {
+  padding-top: 94px;
+}
 // /* ====footer==== */
 // .footer {
 //   background-color: #2f303a;
