@@ -1,5 +1,7 @@
+/* =====Button===== */
+
 .button {
-  color: $heroTextColor
+  color: $heroTextColor;
   background-color: $accentColor;
   font-family: inherit;
 
@@ -17,7 +19,7 @@
   margin-top: 30px;
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
-button.secondary {
+.button.secondary {
   color: $titleTextColor;
   background-color: $bgdButtonColor;
   font-weight: 500;
@@ -27,53 +29,11 @@ button.secondary {
   min-width: 73px;
   padding: 6px 22px;
 }
-
-
 .secondary:hover,
 .secondary:focus {
-  color: $heroTextColor
+  color: $heroTextColor;
   background-color: $accentColor;
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  }
 
-
-
-/* =====Button===== */
-
-// .button {
-//   color: var(--hero-text-color);
-//   background-color: var(--accent-color);
-//   font-family: inherit;
-
-//   border-radius: 4px;
-//   text-align: center;
-//   border: none;
-// }
-// .button.primary {
-//   font-weight: 700;
-//   font-size: 16px;
-//   line-height: 1.87;
-
-//   padding: 10px 32px;
-//   min-width: 200px;
-//   margin-top: 30px;
-//   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-// }
-// .button.secondary {
-//   color: var(--title-text-color);
-//   background-color: var(--bgd-button-color);
-//   font-weight: 500;
-//   font-size: 16px;
-//   line-height: 1.62;
-
-//   min-width: 73px;
-//   padding: 6px 22px;
-// }
-// .secondary:hover,
-// .secondary:focus {
-//   color: var(--hero-text-color);
-//   background-color: var(--accent-color);
-//   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-
-//   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-// }
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
