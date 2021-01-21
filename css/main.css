@@ -783,6 +783,10 @@ ul {
   display: flex;
 }
 
+.form-button:hover, .form-button:focus {
+  background-color: #188ce8;
+}
+
 .modal-form {
   padding: 40px;
 }
@@ -934,24 +938,5 @@ ul {
 .contract {
   color: #2196f3;
   text-decoration: underline;
-}
-
-/* цвет текста  #757575;
-  цвет заголовков  и кнопок#212121
-  акцент+часть лого #2196F3;
-  белый #FFFFFF
-  вторичный цвет фона #2F303A
- */
-/* ====logo====== */
-.logo-icons {
-  display: inline-block;
-  width: 100%;
-  height: 100%;
-  padding: 20px;
-  fill: #afb1b8;
-}
-
-.section-logo {
-  padding-top: 94px;
 }
 /*# sourceMappingURL=main.css.map */

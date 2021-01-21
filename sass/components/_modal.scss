@@ -65,6 +65,11 @@
   margin: 0 auto;
   letter-spacing: 0.06em;
   display: flex;
+
+  &:hover,
+  &:focus {
+    background-color: rgba(24, 140, 232, 1);
+  }
 }
 .modal-form {
   padding: 40px;
